@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="file-explorer-utils",
-    version="1.0.1",
+    version="1.1.0",
     description="Useful functions for file explorer",
     long_description=README,
     long_description_content_type="text/markdown",

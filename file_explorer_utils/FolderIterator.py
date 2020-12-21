@@ -3,8 +3,8 @@ import os
 
 class FolderIterator:
     def __init__(self, filetypes=()):
-        self.filetypes = tuple([filetype.lower() for filetype in filetypes])
-        pass
+        if filetypes:
+            self.filetypes = tuple([filetype.lower() for filetype in filetypes])
 
     def on_folder(self, path, name):
         pass

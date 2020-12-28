@@ -10,13 +10,14 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="file-explorer-utils",
-    version="1.1.0",
+    version="2.0.0",
     description="Useful functions for file explorer",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/Tlalocan/file-explorer-utils",
     author="Tlalocan",
     license="MIT",
+    install_requires=["PySmbClient"],
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
